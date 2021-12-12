@@ -1,0 +1,33 @@
+.button-yes{
+  margin: 10px;
+  background-color: darkgreen;
+  color: aliceblue;
+  border-color: darkolivegreen;
+  border-radius: 5px;
+}
+
+.button-yes:hover{
+  background-color: rgb(79, 157, 2);
+}
+
+.button-no {
+  margin: 10px;
+  background-color: crimson;
+  color: aliceblue;
+  border-color: brown;
+  border-radius: 5px;
+}
+
+.button-no:hover {
+  background-color: rgb(170, 170, 170);
+}
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   color: rgb(52, 123, 255);
+   text-align: center;
+}

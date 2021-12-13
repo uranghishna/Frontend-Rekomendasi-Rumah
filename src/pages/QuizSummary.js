@@ -41,59 +41,61 @@ const QuizSummary = () => {
                         <h6>Status : {user.status}</h6>
                         <h6>Profesi : {user.profession}</h6>
                         <h6>Nomor Telepon : {user.phone}</h6>
-                        <h6>Rekomendasi 1 : {user.first_recomendation.name}, {user.first_recomendation.type}, {user.first_recomendation.desc}</h6>
-                        <h6>Rekomendasi 2 : {user.second_recomendation.name}, {user.second_recomendation.type}, {user.second_recomendation.desc}</h6>
                             <tr>    
                                 <th colspan="2" className="text-center">Rekomendasi 1</th>
                                 <th colspan="2" className="text-center">Rekomendasi 2</th>
                             </tr>
                             <tr>    
+                                <th colspan="2" className="text-center"><h6>{user.first_recomendation.name}, {user.first_recomendation.type}, {user.first_recomendation.desc}</h6></th>
+                                <th colspan="2" className="text-center"><h6>{user.second_recomendation.name}, {user.second_recomendation.type}, {user.second_recomendation.desc}</h6></th>
+                            </tr>
+                            <tr>    
                                 <th>Keterangan Bangunan</th>
                                 <th>Spesifikasi Bahan</th>
                                 <th>Keterangan Bangunan</th>
                                 <th>Spesifikasi Bahan</th>
                             </tr>
                             <tr>    
-                                <td>harga : {user.first_recomendation.interior_and_exterior.harga}</td>
+                                <td>Harga : {user.first_recomendation.interior_and_exterior.harga}</td>
                                 <td>{user.first_recomendation.specification_recomendation[0]}</td>
-                                <td>harga : {user.second_recomendation.interior_and_exterior.harga}</td>
+                                <td>Harga : {user.second_recomendation.interior_and_exterior.harga}</td>
                                 <td>{user.second_recomendation.specification_recomendation[0]}</td>
                             </tr>
                             <tr >
 
-                                <td>luas tanah : {user.first_recomendation.interior_and_exterior.luas_tanah}</td>
+                                <td>Luas Tanah : {user.first_recomendation.interior_and_exterior.luas_tanah}</td>
                                 <td>{user.first_recomendation.specification_recomendation[1]}</td>
-                                <td>luas tanah : {user.second_recomendation.interior_and_exterior.luas_tanah}</td>
+                                <td>Luas Tanah : {user.second_recomendation.interior_and_exterior.luas_tanah}</td>
                                 <td>{user.second_recomendation.specification_recomendation[1]}</td>
                             </tr>
                             <tr>
-                                <td>lebar muka : {user.first_recomendation.interior_and_exterior.lebar_muka}</td>
+                                <td>Lebar Muka : {user.first_recomendation.interior_and_exterior.lebar_muka}</td>
                                 <td>{user.first_recomendation.specification_recomendation[2]}</td>
-                                <td>lebar muka : {user.second_recomendation.interior_and_exterior.lebar_muka}</td>
+                                <td>Lebar Muka : {user.second_recomendation.interior_and_exterior.lebar_muka}</td>
                                 <td>{user.second_recomendation.specification_recomendation[2]}</td>
                             </tr>
                             <tr>
-                                <td>panjang bangunan : {user.first_recomendation.interior_and_exterior.panjang_bangunan}</td>
+                                <td>Panjang Bangunan : {user.first_recomendation.interior_and_exterior.panjang_bangunan}</td>
                                 <td>{user.first_recomendation.specification_recomendation[3]}</td>
-                                <td>panjang bangunan : {user.second_recomendation.interior_and_exterior.panjang_bangunan}</td>
+                                <td>Panjang Bangunan : {user.second_recomendation.interior_and_exterior.panjang_bangunan}</td>
                                 <td>{user.second_recomendation.specification_recomendation[3]}</td>
                             </tr>
                             <tr>
-                                <td>luas carport : {user.first_recomendation.interior_and_exterior.luas_carport}</td>
+                                <td>Luas Carport : {user.first_recomendation.interior_and_exterior.luas_carport}</td>
                                 <td>{user.first_recomendation.specification_recomendation[4]}</td>
-                                <td>luas carport : {user.second_recomendation.interior_and_exterior.luas_carport}</td>
+                                <td>Luas Carport : {user.second_recomendation.interior_and_exterior.luas_carport}</td>
                                 <td>{user.second_recomendation.specification_recomendation[4]}</td>
                             </tr>
                             <tr>
-                                <td>jumlah kamar : {user.first_recomendation.interior_and_exterior.jumlah_kamar_tidur}</td>
+                                <td>Jumlah Kamar : {user.first_recomendation.interior_and_exterior.jumlah_kamar_tidur}</td>
                                 <td>{user.first_recomendation.specification_recomendation[5]}</td>
-                                <td>jumlah kamar : {user.second_recomendation.interior_and_exterior.jumlah_kamar_tidur}</td>
+                                <td>Jumlah Kamar : {user.second_recomendation.interior_and_exterior.jumlah_kamar_tidur}</td>
                                 <td>{user.second_recomendation.specification_recomendation[5]}</td>
                             </tr>
                             <tr>
-                                <td>kamar mandi : {user.first_recomendation.interior_and_exterior.jumlah_kamar_mandi}</td>
+                                <td>Kamar Mandi : {user.first_recomendation.interior_and_exterior.jumlah_kamar_mandi}</td>
                                 <td>{user.first_recomendation.specification_recomendation[6]}</td>
-                                <td>kamar mandi : {user.second_recomendation.interior_and_exterior.jumlah_kamar_mandi}</td>
+                                <td>Kamar Mandi : {user.second_recomendation.interior_and_exterior.jumlah_kamar_mandi}</td>
                                 <td>{user.second_recomendation.specification_recomendation[6]}</td>
                             </tr>
                             <tr>    

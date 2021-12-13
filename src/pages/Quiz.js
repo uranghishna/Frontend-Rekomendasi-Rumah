@@ -84,7 +84,7 @@ const Quiz = () => {
               </div>
               
               <div className="form-group">
-                  <label>address</label> 
+                  <label>Alamat</label> 
                 <input name="address" placeholder="Masukan address" value={address} onChange={(e) => onChange(e)} type="text" class="form-control" />
               </div>
               <div className="form-group">
@@ -96,7 +96,7 @@ const Quiz = () => {
                 </select>
               </div>
               <div className="form-group">
-                  <label>profession</label> 
+                  <label>Profesi</label> 
                 <input name="profession" placeholder="Masukan profession" value={profession} onChange={(e) => onChange(e)} type="text" class="form-control" />
               </div>
               <div className="form-group">
